@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-width: 1280px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .wrapper .container {
+  max-width: 1110px;
+  min-height: 511px;
+  display: flex;
+  justify-content: space-between;
+}
+body .wrapper .container .card {
+  max-width: 302px;
+  min-height: 123px;
+  border-bottom: 1px solid #5E607A;
+  margin-bottom: 31px;
+}
+body .wrapper .container .card h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-display: 20px;
+  line-height: 24px;
+  color: #FFFDFA;
+  margin-bottom: 8px;
+}
+body .wrapper .container .card p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-display: 15px;
+  line-height: 26px;
+  color: #C5C6CE;
+  opacity: 80%;
+}
+body .wrapper .container .bright-future {
+  display: flex;
+  flex-direction: column;
+}
+body .wrapper .container .bright-future .image {
+  margin-bottom: 28px;
+}
+body .wrapper .container .bright-future .image img {
+  max-width: 730px;
+}
+body .wrapper .container .bright-future-text {
+  display: flex;
+  gap: 30px;
+}
+body .wrapper .container .bright-future-text h1 {
+  max-width: 350px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 56px;
+}
+body .wrapper .container .bright-future-text .bright-future-text-right {
+  max-width: 350px;
+}
+body .wrapper .container .bright-future-text .bright-future-text-right p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #5E607A;
+  opacity: 80%;
+  margin-bottom: 29px;
+}
+body .wrapper .container .bright-future-text .bright-future-text-right button {
+  width: 185px;
+  height: 48px;
+  border: none;
+  background: #F15D51;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 4.38px;
+  color: #FFFDFA;
+  cursor: pointer;
+}
+body .wrapper .container .bright-future-text .bright-future-text-right button:hover {
+  transition: 0.5s;
+  background: rgb(0, 0, 26);
+  color: rgb(255, 253, 250);
+}
+body .wrapper .container .new-info {
+  margin-left: 30px;
+  max-width: 350px;
+  background: #00001A;
+  padding: 31px 24px;
+}
+body .wrapper .container .new-info h2 {
+  color: #E9AA52;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-display: 40px;
+  line-height: 40px;
+  margin-bottom: 34px;
+}/*# sourceMappingURL=style.css.map */
